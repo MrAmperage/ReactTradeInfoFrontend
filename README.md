@@ -1,2 +1,3 @@
-# TradeInfoFrontend
-Frontend часть для TraidInfo
+# ReactTradeInfoFrontend
+
+Frontend часть для TraidInfo на React
