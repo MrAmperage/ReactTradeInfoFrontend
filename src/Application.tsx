@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Layout, Menu } from 'antd';
+import {Layout, Menu} from 'antd';
 
 const { Header, Content, Sider } = Layout;
 const Application: React.FC = () => {
