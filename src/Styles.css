@@ -1,9 +1,20 @@
+/*Расширяет host элемент на всю страницу*/
 html,
 body,
 #Root,
-.AllSpace,
 #Root > div {
   height: 100%;
   width: 100%;
   margin: 0%;
+}
+/*Расширяет блок на все доступное прастранство*/
+.AllSpace {
+  height: 100%;
+  width: 100%;
+}
+/*Центрирует дочерние элементы*/
+.FlexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

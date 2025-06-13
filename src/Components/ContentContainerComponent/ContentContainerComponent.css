@@ -1,0 +1,6 @@
+/*Надпись об отсутствии контента*/
+.NoContentText {
+  font-size: 75px;
+  font: bolder;
+  color: rgba(107, 106, 106, 0.5);
+}
