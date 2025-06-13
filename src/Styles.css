@@ -1,6 +1,7 @@
 html,
 body,
 #Root,
+.AllSpace,
 #Root > div {
   height: 100%;
   width: 100%;

@@ -1,6 +1,6 @@
 /*Класс глобального стора для приложения*/
 import { makeAutoObservable } from "mobx";
-import { MenuItem } from "../../Components/Application/DataModels/MenuItem";
+import { MenuItem } from "../../DataModels/MenuItem";
 
 export default class GlobalStore {
   constructor() {

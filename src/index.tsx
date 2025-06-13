@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Styles.css';
-import App from './Application';
+import App from './Components/Application/ApplicationComponent';
 import { ConfigProvider } from 'antd';
 import ru_RU from 'antd/locale/ru_RU';
 

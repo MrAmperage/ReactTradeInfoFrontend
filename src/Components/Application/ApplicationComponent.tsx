@@ -1,22 +1,21 @@
 import React from 'react';
 import {Layout, Menu} from 'antd';
+import ContentContainerComponent from "../ContentContainerComponent/ContentContainerComponent"
 
 const { Header, Content, Sider } = Layout;
 const Application: React.FC = () => {
   return (
     <Layout>
-      <Header style={{ display: 'flex', alignItems: 'center' }}>
+      <Header>
       </Header>
       <Layout>
         <Sider width={200}>
           <Menu
-            mode="inline"
-            className='Menu'
-          />
+            mode="inline"/>
         </Sider>
         <Layout>
           <Content>
-            Content
+       <ContentContainerComponent/>
           </Content>
         </Layout>
       </Layout>
