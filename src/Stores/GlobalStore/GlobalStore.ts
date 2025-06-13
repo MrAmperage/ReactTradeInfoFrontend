@@ -1,6 +1,6 @@
 /*Класс глобального стора для приложения*/
-
 import { makeAutoObservable } from "mobx";
+import { MenuItem } from "../../Components/Application/DataModels/MenuItem";
 
 export default class GlobalStore {
   constructor() {
@@ -8,13 +8,13 @@ export default class GlobalStore {
   }
   /*Меню приложения*/
   //TODO Типизировать
-  private Menu: any[] = [];
+  Menu: MenuItem[] = [];
   /*Установить новое меню для приложения */
-  ChangeMenu(Menu: any[]) {
+  ChangeMenu(Menu: MenuItem[]) {
     this.Menu = Menu;
   }
   /*Ключ для текущего открытого пункта меню */
-  private CurrentMenuItemKey: string | null = null;
+  CurrentMenuItemKey: string | null = null;
   /*Установить новую открытую вкладку в приложении по ключу*/
   ChangeCurrentMenuItemByKey(ItemKey: string) {
     this.CurrentMenuItemKey = ItemKey;
